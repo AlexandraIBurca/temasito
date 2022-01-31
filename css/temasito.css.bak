@@ -1,0 +1,155 @@
+/* NAVBAR */
+
+nav.pagination {
+  display: float;
+  grid-template-columns: repeat(auto-fit, minmax( 20px, 0.3fr ));
+  text-align: center;
+  background-color: pink;
+}
+
+nav.pagination.a {
+  padding: 25px 0;
+  background-color: pink;
+}
+
+nav.pagination.span {
+  padding: 20px 0;
+  background-color: pink;
+}
+
+nav {
+	font-size: 30px;
+	color: black;
+	font-family: Montserrat, sans-serif;
+	text-align: right;
+	background-color: pink;
+}
+body {
+	background-color: pink;
+	font-family: Montserrat, sans-serif;
+}
+
+
+/* CONTACT FORM */
+
+h2 {
+	font-size: 36px;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+} 
+
+input {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	width: 500px;
+	margin: auto;
+	width: 300px;
+	max-width: 100%;
+}
+
+input[type=text], textarea {
+  box-sizing: border-box;
+  width: 400px;
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: #FFF;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100px;
+  max-width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(255,192,203);
+
+}
+form , .row.my-5.mx-5.bg-white.p-5 {
+	max-width: 100%;
+	margin:0;
+}
+
+/* ICONS */
+
+.fab:hover {
+  background-color: #FFB6C1;
+  transition: ease-in-out 0.2s;
+}
+
+/* ASIDE */
+
+.wp-block-search__inside-wrapper {
+  margin-right: 40px;
+}
+    
+p {
+	font-size: 26px;
+	text-align: center;
+	padding: 10px;
+	color: black;
+	font-family: Montserrat, sans-serif;
+}
+	
+img {
+	max-width: 20%;
+	padding-bottom: 2%;
+	display: block;
+    margin: 0 auto;
+}
+.img1 {
+	
+	text-align: center;
+	max-width: 70%; 
+	padding-left: auto; 
+	padding-right: auto;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 2px;
+	font-family: Montserrat, sans-serif;
+}
+
+body {
+	background-color: white;
+}
+  
+h3, h4 {
+	text-align: center;
+}
+
+#bs-example-navbar-collapse-1 {
+	text-align: right;
+	float: right;
+}
+
+.navbar-brand {
+	float: right;
+	margin: 0px;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+footer {
+	font-family: Montserrat, sans-serif;
+	font-size: 25px;
+}
+
+
+
